@@ -15,8 +15,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', async (req, res) => {
     res.render('index', { 
       title: "Hello from Google Cloud",
-      greeting: "Hello from Google Cloud",
-      banner: "/img/logo_cloud_icon.png",
+      greeting: "Hello Pinho!!!",
+      banner: "/img/rick.jfif",
       bannerUrl: "https://cloud.google.com"
     });
   });
